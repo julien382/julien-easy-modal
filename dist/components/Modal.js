@@ -1,9 +1,11 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
+var _react = _interopRequireDefault(require("react"));
 require("./Modal.css");
 var Modal = function Modal(_ref) {
   var children = _ref.children,
@@ -26,17 +28,17 @@ var Modal = function Modal(_ref) {
     transition: "opacity ".concat(fadeDuration, "ms ease-in-out ").concat(fadeDelay, "ms"),
     opacity: isOpen ? 1 : 0
   };
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", {
     className: isOpen ? "shadow-modal" : "",
     onClick: function onClick() {
       return setIsOpen(false);
     }
-  }), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/_react["default"].createElement("div", {
     className: "modal",
     style: transitionStyle
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react["default"].createElement("div", {
     className: "inModal"
-  }, closingCross && /*#__PURE__*/React.createElement("span", {
+  }, closingCross && /*#__PURE__*/_react["default"].createElement("span", {
     className: "modal-close",
     onClick: handleClose
   }, editClose), children)));
