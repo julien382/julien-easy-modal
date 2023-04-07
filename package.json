@@ -34,7 +34,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "version": "1.3.0",
+  "version": "1.3.5",
   "dependencies": {
     "abab": "^2.0.6",
     "accepts": "^1.3.8",

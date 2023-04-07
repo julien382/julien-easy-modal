@@ -1,0 +1,1 @@
+declare module 'julien-easy-modal'
