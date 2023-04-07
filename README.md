@@ -8,6 +8,10 @@ EasyModal est un composant REACT. Ce composant est uniquement utilisable sur une
 $ npm install easyModal
 ```
 
+## Install
+
+import Modal from "julien-easy-modal";
+
 ## utilisation
 
 Pour ouvrir ou fermer la modal, il faut lui passer un state de type `boolean`et son setteur dans les props `isOpen` et `setIsOpen`
