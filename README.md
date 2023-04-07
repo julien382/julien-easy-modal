@@ -55,3 +55,4 @@ const [isOpen, setIsOpen] = useState(false)
     <p>Texte personalisé<p>
 <Modal/>
 ```# julien-easy-modal
+# julien-easy-modal
