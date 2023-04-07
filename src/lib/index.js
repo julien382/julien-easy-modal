@@ -1,4 +1,3 @@
-import Modal from './Modal.jsx';
-import './Modal.css';
+import Modal from './components/Modal.jsx';
 
 export default Modal;
