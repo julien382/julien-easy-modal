@@ -8,9 +8,11 @@ EasyModal est un composant REACT. Ce composant est uniquement utilisable sur une
 $ npm install easyModal
 ```
 
-## Install
+## Import
 
+```
 import Modal from "julien-easy-modal";
+```
 
 ## utilisation
 
