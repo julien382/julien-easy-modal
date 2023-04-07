@@ -34,12 +34,12 @@ var Modal = function Modal(_ref) {
       return setIsOpen(false);
     }
   }), /*#__PURE__*/_react["default"].createElement("div", {
-    className: "modal",
+    className: isOpen ? "modal" : "",
     style: transitionStyle
   }, /*#__PURE__*/_react["default"].createElement("div", {
-    className: "inModal"
+    className: isOpen ? "inModal" : ""
   }, closingCross && /*#__PURE__*/_react["default"].createElement("span", {
-    className: "modal-close",
+    className: isOpen ? "modal-close" : "",
     onClick: handleClose
   }, editClose), children)));
 };
