@@ -1,11 +1,11 @@
-# EasyModal 
+# julien-easy-modal 
 
-EasyModal est un composant REACT. Ce composant est uniquement utilisable sur une stack reactJS.
+julien-easy-modal est un composant REACT. Ce composant est uniquement utilisable sur une stack reactJS.
 
 ## Install
 
 ```
-$ npm install easyModal
+$ npm i julien-easy-modal
 ```
 
 ## Import
